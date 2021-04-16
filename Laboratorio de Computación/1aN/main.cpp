@@ -4,11 +4,12 @@ using namespace std;
 
 int main()
 {
-    int i=20;
-
-    while(i>=1) {
+    int i=1, n;
+    cout<<"Ingrese el valor deseado: ";
+    cin>>n;
+    while(i<=n) {
             cout<<i<<"\n";
-            i--;
+            i++;
     }
     return 0;
 }

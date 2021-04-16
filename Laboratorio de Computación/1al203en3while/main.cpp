@@ -4,11 +4,11 @@ using namespace std;
 
 int main()
 {
-    int i=20;
+    int i=1;
 
-    while(i>=1) {
+    while(i<=20) {
             cout<<i<<"\n";
-            i--;
+            i+=3;
     }
     return 0;
 }
